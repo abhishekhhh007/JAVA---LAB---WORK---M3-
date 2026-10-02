@@ -52,7 +52,6 @@ public class StudentCRUD {
                     ", Marks: " + rs.getInt("marks")
                 );
             }
-
             rs.close();
 
             
