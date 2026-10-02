@@ -8,7 +8,7 @@ public class JDBCConnection {
 
         String url = "jdbc:mysql://localhost:3306/studentdb";
         String username = "root";
-        String password = "aBi@#4558/";
+        String password = "YOUR_MYSQL_PASSWORD";
 
         try {
             Connection con = DriverManager.getConnection(
